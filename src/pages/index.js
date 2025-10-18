@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="Holo - Gatsby Theme"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        title="SMP Daan Mogot"
+        description="SMP Daan Mogot berkomitmen mencetak generasi yang beriman, berakhlak mulia, disiplin, dan berprestasi. Melalui pembelajaran aktif, kreatif, dan berbasis teknologi, kami menyiapkan peserta didik menghadapi masa depan dengan pengetahuan dan karakter yang kuat."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>

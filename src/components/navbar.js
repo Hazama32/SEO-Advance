@@ -13,7 +13,7 @@ const Navbar = () => {
               href="/"
             >
               <span className="text-gradient bg-gradient-to-r from-pink to-purple font-semibold">
-                HOLO
+                SMP DAAN MOGOT
               </span>
             </a>
             <div className="hidden md:block">
