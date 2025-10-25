@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/logo-ypdm.png"
 
 const Footer = () => {
   return (
@@ -12,10 +12,7 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
-                <br></br>
-                built with Gatsby.
+              Membangun Generasi Cerdas dan Berkarakter
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
@@ -24,18 +21,20 @@ const Footer = () => {
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
-                  <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                  <a className="text-black font-bold block-inline" href="https://maps.app.goo.gl/UHC648AG4njcLnJ1A">
+                    Alamat: Jl. Gatot Subroto Km. 5 Kel. Jatiuwung Kec. Cibodas
+                    <br></br>
+                    Kota Tangerang
                   </a>
 
                   <a
                     className="text-black font-semibold ml-1"
                     target="_blank"
-                    href="https://travislord.xyz"
+                    href="mailto:smpdaanmogot16@gmail.com"
                   >
-                    By TL
+                    Email:smpdaanmogot16@gmail.com
                   </a>
-                  <a
+                  {/* <a
                     href="https://github.com/lilxyzz/holo-theme"
                     target="_blank"
                   >
@@ -44,7 +43,7 @@ const Footer = () => {
                       src="/img/Github-Logo.png"
                       alt="GitHub"
                     ></img>
-                  </a>
+                  </a> */}
                 </p>
               </div>
             </div>

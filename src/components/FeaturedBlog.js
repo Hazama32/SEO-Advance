@@ -14,19 +14,16 @@ const FeaturedBlog = () => {
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              Semangat HUT RI ke-80: Siswa SMP Daan Mogot Tunjukkan Kreativitas dan Disiplin
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Dalam rangka memperingati Hari Kemerdekaan Republik Indonesia yang ke-80, SMP Daan Mogot menggelar berbagai lomba seru seperti balap karung, tarik tambang, dan lomba kebersihan kelas. Kegiatan ini bukan hanya menjadi ajang hiburan, tetapi juga sarana untuk menumbuhkan semangat kebersamaan dan nasionalisme.
             </p>
             <a
               href="/blog/blog-post"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
-              Continue Reading
+              Baca Selengkapnya
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"
@@ -45,21 +42,18 @@ const FeaturedBlog = () => {
             </a>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
-              <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+            <div className="blog-hover bg-gradient-to-r from-pink to-purple rounded-lg p-8 md:p-12">
+              <h2 className="text-black text-3xl font-simibold mb-2">
+                Inovasi Belajar Berbasis Teknologi di SMP Daan Mogot
               </h2>
-              <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+              <p className="text-lg font-normal text-black opacity-60 mb-4">
+               SMP Daan Mogot kini menerapkan sistem pembelajaran berbasis teknologi untuk mendukung proses belajar mengajar di era digital. Melalui penggunaan aplikasi interaktif, video pembelajaran, dan sistem penilaian online, guru dapat memberikan pengalaman belajar yang lebih menarik dan efektif.
               </p>
               <a
                 href="/blog/blog-post-1"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Baca Selengkapnya
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -77,21 +71,18 @@ const FeaturedBlog = () => {
                 </svg>
               </a>
             </div>
-            <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
+            <div className="blog-hover bg-gradient-to-r from-pink to-purple rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Program Sekolah Hijau: Wujud Nyata Peduli Lingkungan
               </h2>
-              <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+              <p className="text-lg font-normal text-black opacity-60 mb-4">
+                Sebagai bentuk kepedulian terhadap lingkungan, SMP Daan Mogot meluncurkan program Sekolah Hijau. Melalui kegiatan seperti menanam pohon, daur ulang sampah, dan lomba kelas terbersih, sekolah mengajak seluruh siswa menjaga kebersihan dan keindahan lingkungan sekolah.
               </p>
               <a
                 href="/blog/blog-post-2"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Baca Selengkapnya
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"

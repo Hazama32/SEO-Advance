@@ -115,9 +115,9 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-          <h2 className="text-white text-4xl">Misi</h2>
-          <ol className="mt-10 text-white opacity-70 list-decimal list-inside space-y-3">
+          <div className="w-4/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+          <h2 className="text-black font-semibold text-4xl">Misi</h2>
+          <ol className="mt-10 text-black list-decimal list-inside space-y-3">
             <li>
               Menanamkan keimanan dan ketakwaan kepada Tuhan Yang Maha Esa melalui
               pembiasaan dan keteladanan dalam kehidupan sehari-hari.
