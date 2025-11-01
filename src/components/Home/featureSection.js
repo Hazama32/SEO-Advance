@@ -44,9 +44,12 @@ const FeatureSection = () => {
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             {/* <h2 className="text-black text-4xl font-semibold"></h2> */}
-            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-             Membangun Generasi Cerdas dan Berkarakter
-            </h3>
+           <h2 className="relative text-6xl font-bold">
+          <span className="absolute inset-0 text-gray-300">Membangun Generasi Cerdas dan Berkarakter</span>
+          <span className="relative bg-gradient-to-r from-white via-yellow-200 to-yellow-500 bg-clip-text text-transparent">
+            Membangun Generasi Cerdas dan Berkarakter
+          </span>
+          </h2>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
              SMP Daan Mogot berkomitmen menciptakan lingkungan belajar yang inspiratif dan berprestasi.
@@ -66,7 +69,10 @@ const FeatureSection = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center 
+                  bg-gradient-to-r from-[#ffffff] via-[#9ca3af] to-[#f9fafb] 
+                  text-gray-800 hover:text-black border border-gray-800 
+                  transition-all duration-500 hover:scale-105 shadow-lg"
                 >
                   Lihat Galeri
                   <svg
@@ -93,7 +99,7 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-gradient-to-r from-gray-200 to-gray-400 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
               Visi
             </span>
@@ -115,7 +121,7 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="w-4/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+          <div className="w-4/6 bg-gradient-to-r from-gray-200 to-gray-400 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
           <h2 className="text-black font-semibold text-4xl">Misi</h2>
           <ol className="mt-10 text-black list-decimal list-inside space-y-3">
             <li>
@@ -221,15 +227,15 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Kegiatan Upacara Bendera 17 Agustus 2025</h3>
+          <div className="w-1/3 bg-gradient-to-r from-gray-200 to-gray-400 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl font-semibold">Kegiatan Upacara Bendera 17 Agustus 2025</h3>
           </div>
 
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Kegiatan Ujian Tes Kemampuan Akademik</h3>
+          <div className="w-1/3 bg-gradient-to-r from-gray-200 to-gray-400 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl font-semibold">Kegiatan Ujian Tes Kemampuan Akademik</h3>
           </div>
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl text-justify-center">Kegiatan Kerja Bakti di Lingkungan Sekolah</h3>
+          <div className="w-1/3 bg-gradient-to-r from-gray-200 to-gray-400 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl text-justify-center font-semibold">Kegiatan Kerja Bakti di Lingkungan Sekolah</h3>
           </div>
         </div>
       </Fade>

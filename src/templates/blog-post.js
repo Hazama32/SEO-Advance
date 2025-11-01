@@ -8,6 +8,11 @@ import RightIcon from "../images/right-icon.svg"
 import styled from "styled-components"
 
 const StyledDiv = styled.div`
+  text-align: justify;
+  & p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+  }
   & h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -51,12 +56,14 @@ const BlogPost = props => {
 
   const post = props.data.markdownRemark
   let date = new Date(post.frontmatter.date) // assuming post.frontmatter.date is in ISO string format
-  let options = { year: "numeric", month: "short", day: "numeric" }
-  let formattedDate = date.toLocaleDateString("en-US", options)
-  let titlaDate = date.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
+  let options = { year: "numeric", month: "long", day: "numeric" }
+  let formattedDate = date.toLocaleDateString("en-ID", options)
+  let titlaDate = date.toLocaleDateString("en-ID", {
     day: "numeric",
+    month: "long",
+    year: "numeric",
+   
+  
   })
 
   let isoDate = date.toISOString().split("T")[0] // get the date part of the ISO string
@@ -65,13 +72,13 @@ const BlogPost = props => {
     <Layout>
       <Seo
         title="Blog"
-        description="We have been providing professional repair services in the city since 1993 ,and we have helped thousands of local car owners to restore their vehicles."
+        description="Baca berita dan artikel terbaru dari SMP Daan Mogot. Temukan informasi seputar kegiatan sekolah, prestasi siswa, serta tips belajar dan pendidikan karakter. Melalui blog ini, SMP Daan Mogot berbagi inspirasi dan pengalaman untuk mendukung proses belajar siswa agar terus berkembang dan berprestasi di bidang akademik maupun non-akademik."
       />
       <main className="pt-8 pb-16 lg:pt-16 lg:pb-24">
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-[#000000] lg:mb-6 lg:text-4xl dark:text-black">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-[#ffffff] lg:mb-6 lg:text-4xl dark:text-white text-center">
                 {post.frontmatter.title}
               </h1>
             </header>
@@ -91,7 +98,7 @@ const BlogPost = props => {
             </p>
 
             <StyledDiv
-              className="post-content-body text-[#000000]"
+              className="post-content-body text-[#ffffff]"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="flex items-center justify-between pt-8">
@@ -100,7 +107,7 @@ const BlogPost = props => {
                   style={{
                     display: previousLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#131313",
+                    color: "#ffffff",
                   }}
                   className="text-base	"
                   href={previousSlug}
@@ -121,7 +128,7 @@ const BlogPost = props => {
                   style={{
                     display: nextLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#131313",
+                    color: "#ffffff",
                   }}
                   className="text-base	"
                   href={nextSlug}

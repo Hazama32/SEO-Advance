@@ -5,26 +5,26 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/holographic-background.webp"
+import image from "../images/bg-kontak.png"
 
 const Contact = () => {
   return (
     <Layout>
       <Seo
-        title="Contact - Holo"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        title="Kontak"
+        description="Hubungi SMP Daan Mogot untuk informasi pendaftaran, kegiatan sekolah, atau kerja sama pendidikan. Kami siap membantu melalui telepon, email, dan kunjungan langsung ke sekolah. SMP Daan Mogot berlokasi di Jl. Gatot Subroto Km. 5 Kel. Jatiuwung Kec. Cibodas Kota Tangerang Kode Pos 15134, dan berkomitmen memberikan layanan terbaik bagi siswa, orang tua, dan masyarakat sekitar."
       ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
-            <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
+          <div className="bg-gradient-to-r from-gray-500 to-gray-400 p-10 rounded-xl w-3/4 m-5 w-auto">
+            <h1 className="text-3xl text-white">KONTAK SMP DAAN MOGOT</h1>
+            {/* <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Gatsby Theme
-            </h2>
-            <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
+            </h2> */}
+            {/* <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
               A stunning and minimal personalized website starter theme.
-            </p>
+            </p> */}
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
               <div className="flex flex-wrap">
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Phone
+                        No.HP
                       </p>
                       <p className="text-neutral-500 mb-2">
                         <a href="tel:+#">(08) 9000 000</a>
@@ -83,8 +83,8 @@ const Contact = () => {
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                        <a href="mailto:smpdaanmogot16@gmail.com">
+                          smpdaanmogot16@gmail.com
                         </a>
                       </p>
                     </div>
@@ -112,9 +112,9 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Location
+                        Lokasi
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Jl. Gatot Subroto Km. 5 Kel. Jatiuwung Kec. Cibodas Kota Tangerang Kode Pos 15134</p>
                     </div>
                   </div>
                 </div>
@@ -140,15 +140,15 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Opening Hours
+                        Jam Kerja
                       </p>
-                      <p className="text-neutral-500 mb-2">24/7</p>
+                      <p className="text-neutral-500 mb-2">Senin-Sabtu</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <form className="mt-5" name="contact" method="POST" netlify>
+            {/* <form className="mt-5" name="contact" method="POST" netlify>
               <div className="flex xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
                   <label>
@@ -210,7 +210,7 @@ const Contact = () => {
                   ></Button>
                 </label>
               </div>
-            </form>
+            </form> */}
           </div>
         </Fade>
         <Fade bottom cascade>

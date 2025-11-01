@@ -1,27 +1,19 @@
 ---
 templateKey: blog-post
-title: Lorem Ipsum Is Simply Dummy Text
-date: 2024-03-30T15:02:06.069Z
-featuredimage: /img/Holographic-Liquid-3.jpg
+title:  Semangat HUT RI ke-80 Siswa SMP Daan Mogot Tunjukkan Kreativitas dan Disiplin
+date: 2025-08-17T15:02:06.069Z
+featuredimage: /img/Head.jpg
 categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Dalam rangka memperingati Hari Kemerdekaan Republik Indonesia yang ke-80, SMP Daan Mogot menggelar berbagai lomba seru seperti balap karung, tarik tambang, dan lomba kebersihan kelas. Kegiatan ini bukan hanya menjadi ajang hiburan, tetapi juga sarana untuk menumbuhkan semangat kebersamaan dan nasionalisme.
 ---
-## Lorem Ipsum 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-## Simply Dummy Text
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-
-## Typesetting
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+##
+Dalam rangka memperingati Hari Ulang Tahun Kemerdekaan Republik Indonesia ke-80, SMP Daan Mogot menyelenggarakan serangkaian kegiatan yang penuh semangat dan kebersamaan. Seluruh siswa, guru, serta staf sekolah turut berpartisipasi aktif dalam memeriahkan acara tahunan ini yang menjadi momen penting untuk menanamkan nilai nasionalisme dan cinta tanah air.
+##
+Berbagai lomba diadakan dengan suasana meriah, seperti lomba tarik tambang, lomba kebersihan kelas, karnaval kemerdekaan, serta pentas seni yang menampilkan bakat dan kreativitas siswa. Kegiatan tersebut menjadi wadah bagi siswa untuk mengekspresikan diri sekaligus belajar tentang pentingnya kerja sama, sportivitas, dan kedisiplinan.
+##
+Selain lomba, acara juga diisi dengan upacara bendera dan penampilan khusus bertema perjuangan bangsa. Melalui kegiatan ini, SMP Daan Mogot berusaha mengingatkan seluruh warga sekolah akan nilai perjuangan para pahlawan yang telah berkorban demi kemerdekaan Indonesia.
+##
+Semangat HUT RI ke-80 ini bukan hanya menjadi ajang perayaan, tetapi juga momentum untuk memperkuat karakter siswa agar menjadi generasi muda yang tangguh, bersemangat, dan berjiwa patriotik. Dengan dukungan para guru dan tenaga pendidik, SMP Daan Mogot berharap semangat kebangsaan ini terus tumbuh dalam diri setiap siswa.

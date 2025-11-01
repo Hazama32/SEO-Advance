@@ -7,8 +7,8 @@ const GalleryPage = () => {
   return (
     <Layout>
       <Seo
-        title="Holo - Gallery"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        title="Galeri"
+        description="Lihat dokumentasi kegiatan SMP Daan Mogot melalui galeri foto dan video terbaru kami. Setiap momen menggambarkan semangat belajar, kreativitas, dan kebersamaan siswa dalam berbagai kegiatan sekolah, baik akademik maupun ekstrakurikuler. Galeri SMP Daan Mogot menampilkan bukti nyata dedikasi sekolah dalam menciptakan lingkungan belajar yang aktif dan menyenangkan."
       ></Seo>
       <Gallery></Gallery>
     </Layout>

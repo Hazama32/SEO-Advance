@@ -24,7 +24,8 @@ a {
     color: white;
   }
   body {
-    background-color: rgb(69, 89, 201);
+    background: linear-gradient(to bottom right, #1f2a44, #cbd5e1);
+
   }
 }
 
@@ -34,6 +35,56 @@ a {
     -webkit-text-fill-color: transparent;
   }
 }
+
+/* === ANIMASI UNTUK HOME === */
+@keyframes typing-home {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15ch; /* panjang teks di home, sesuaikan */
+  }
+}
+
+@keyframes blink-home {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.animate-typing-home {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #b3b2b0; /* kuning */
+  animation: typing-home 2.5s steps(15, end) forwards, blink-home 0.75s step-end infinite;
+}
+
+/* === ANIMASI UNTUK GALERI === */
+@keyframes typing-gallery {
+  from {
+    width: 0;
+  }
+  to {
+    width: 21ch; /* panjang teks "GALERI SMP DAAN MOGOT" */
+  }
+}
+
+@keyframes blink-gallery {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.animate-typing-gallery {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #5e5c5c; /* abu-abu */
+  animation: typing-gallery 2.8s steps(21, end) forwards, blink-gallery 0.75s step-end infinite;
+}
+
+
 
 
 /* ~~~~ Custom CSS - I know it's bad T_T ~~~~ */

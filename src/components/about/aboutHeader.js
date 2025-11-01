@@ -11,7 +11,7 @@ const AboutHeader = () => {
           <img alt="Image" src={Image3}></img>
         </div>
         <div className="mt-10 px-8 justify-center text-center flex flex-col gap-4">
-          <h1 className="font-bold text-5xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
+          <h1 className="font-bold text-5xl text-black text-gradient bg-gradient-to-r from-gray-200 to-gray-400">
             SMP DAAN MOGOT
           </h1>
           <h2 className="text-black text-3xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-3xl">

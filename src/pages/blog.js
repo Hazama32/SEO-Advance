@@ -13,8 +13,8 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Seo
-        title="Holo - Blog"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        title="Blog"
+        description="Baca berita dan artikel terbaru dari SMP Daan Mogot. Temukan informasi seputar kegiatan sekolah, prestasi siswa, serta tips belajar dan pendidikan karakter. Melalui blog ini, SMP Daan Mogot berbagi inspirasi dan pengalaman untuk mendukung proses belajar siswa agar terus berkembang dan berprestasi di bidang akademik maupun non-akademik."
       ></Seo>
       <BlogHeader post={HeaderPost} />
       <BlogsContainer data={otherPosts} />
