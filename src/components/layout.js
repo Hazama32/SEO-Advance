@@ -8,6 +8,7 @@
 import * as React from "react"
 import Footer from "./footer"
 import Navbar from "./navbar"
+import WhatsAppButton from "./whatsappbutton"
 
 const Layout = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <Navbar></Navbar>
       {children}
       <Footer></Footer>
+      <WhatsAppButton />
     </div>
   )
 }

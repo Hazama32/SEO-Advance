@@ -18,7 +18,7 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-gradient-to-r from-gray-500 to-gray-400 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">KONTAK SMP DAAN MOGOT</h1>
+            <h1 className="text-3xl text-white font-bold">INFORMASI SEKOLAH SMP DAAN MOGOT</h1>
             {/* <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Gatsby Theme
             </h2> */}
@@ -53,7 +53,7 @@ const Contact = () => {
                         No.HP
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="https://wa.me/6281234567890">081234567890</a>
                       </p>
                     </div>
                   </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Lokasi
                       </p>
-                      <p className="text-neutral-500 mb-2">Jl. Gatot Subroto Km. 5 Kel. Jatiuwung Kec. Cibodas Kota Tangerang Kode Pos 15134</p>
+                      <a className="text-neutral-500 mb-2" href="https://maps.app.goo.gl/UHC648AG4njcLnJ1A">Jl. Gatot Subroto Km. 5 Kel. Jatiuwung Kec. Cibodas Kota Tangerang Kode Pos 15134</a>
                     </div>
                   </div>
                 </div>

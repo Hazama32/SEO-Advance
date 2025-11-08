@@ -84,6 +84,47 @@ a {
   animation: typing-gallery 2.8s steps(21, end) forwards, blink-gallery 0.75s step-end infinite;
 }
 
+/* ========== FOOTER STYLES ========== */
+.site-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.site-footer .footer-link {
+  color: #1f2937; /* gray-800 */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.site-footer .footer-link:hover {
+  color: #ffffff; /* blue-700 */
+  transform: translateX(4px);
+}
+
+.site-footer .footer-title {
+  color: #111827; /* gray-900 */
+}
+
+/* Animasi ikon sosial media */
+.site-footer .footer-social {
+  display: inline-flex;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.site-footer .footer-social:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.footer-email {
+  color: #1f2937;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-email:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
 
 
 

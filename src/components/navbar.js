@@ -1,13 +1,20 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
+// Menghapus: import { Link } from "gatsby" (diganti dengan <a>)
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
+
+  const handleLinkClick = () => {
+    // Menutup menu mobile saat tautan diklik
+    setOpenMenu(false)
+  }
+
   return (
     <nav className="bg-transparent">
       <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
+            {/* Logo SMP DAAN MOGOT */}
             <a
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
@@ -16,51 +23,46 @@ const Navbar = () => {
                 SMP DAAN MOGOT
               </span>
             </a>
+            {/* Menu Desktop */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
-                <Link
+                <a // Diganti dari Link ke <a>
                   className="relative after:rounded after:bg-gray-400 after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/"
+                  href="/" // Menggunakan 'href' untuk <a>
                 >
                   Home
-                </Link>
-                <Link
+                </a>
+                <a // Diganti dari Link ke <a>
                   className="relative after:rounded after:bg-gray-400 after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/about"
+                  href="/about" // Menggunakan 'href' untuk <a>
                 >
-                  About
-                </Link>
+                  Tentang Kami
+                </a>
 
-                <Link
+                <a // Diganti dari Link ke <a>
                   className="relative after:rounded after:bg-gray-400 after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/gallery"
+                  href="/gallery" // Menggunakan 'href' untuk <a>
                 >
-                  Gallery
-                </Link>
-                <Link
+                  Galeri
+                </a>
+                <a // Diganti dari Link ke <a>
                   className="relative after:rounded after:bg-gray-400 after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/blog"
+                  href="/blog" // Menggunakan 'href' untuk <a>
                 >
                   Blog
-                </Link>
-                <Link
+                </a>
+                <a // Diganti dari Link ke <a>
                   className="relative after:rounded after:bg-gray-400 after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/contact"
+                  href="/contact" // Menggunakan 'href' untuk <a>
                 >
-                  Contact
-                </Link>
-                <div className="items-center">
-                  <a
-                    href="tel:#"
-                    className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-white rounded-lg border border-gray-300 hover:text-white hover:bg-gray-400"
-                  >
-                    Hubungi Kami
-                  </a>
-                </div>
+                  Kontak
+                </a>
+                {/* Tombol Call Us Now dikomentari (sesuai kode bawaan Anda) */}
               </div>
             </div>
           </div>
 
+          {/* Tombol Hamburger/Ikon X untuk Mobile */}
           <div className="-mr-2 flex md:hidden">
             <button
               id="al"
@@ -68,11 +70,12 @@ const Navbar = () => {
               onClick={() => setOpenMenu(!openMenu)}
               className="text-gray-800 dark:text-white hover:text-black-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
             >
+              {/* SVG Icon 3 Garis */}
               <svg
-                width="20"
-                height="20"
+                width="25"
+                height="25"
                 fill="black"
-                className="h-8 w-8"
+                className="h-5 w-5"
                 viewBox="0 0 1792 1792"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,48 +86,59 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
+      {/* Menu Mobile (Sekarang dengan Latar Belakang Gelap sesuai screenshot) */}
       {openMenu && (
         <div className="transition duration-1000 ease-in-out md:hidden">
-          <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 transition duration-1000 ease-in-out">
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+          {/* Mengubah tampilan menjadi gelap seperti di screenshot */}
+          <div className="absolute top-16 left-0 w-full bg-[#1e2a47] shadow-xl p-4 flex flex-col space-y-2 z-30"> 
+            <a // Menggunakan <a> untuk navigasi
+              className="text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-lg font-medium font-montserrat"
               href="/"
+              onClick={handleLinkClick}
             >
               Home
             </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+            <a // Menggunakan <a> untuk navigasi
+              className="text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-lg font-medium font-montserrat"
               href="/about"
+              onClick={handleLinkClick}
             >
-              About
+              Tentang Kami
             </a>
 
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+            <a // Menggunakan <a> untuk navigasi
+              className="text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-lg font-medium font-montserrat"
               href="/gallery"
+              onClick={handleLinkClick}
             >
-              Gallery
+              Galeri
             </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+            <a // Menggunakan <a> untuk navigasi
+              className="text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-lg font-medium font-montserrat"
               href="/blog"
+              onClick={handleLinkClick}
             >
               Blog
             </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+            <a // Menggunakan <a> untuk navigasi
+              className="text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-lg font-medium font-montserrat"
               href="/contact"
+              onClick={handleLinkClick}
             >
-              Contact
+              Kontak
             </a>
-            <div className="items-center mt-20 py-3">
+            {/* Tombol Call Us Now
+            <div className="items-center py-3">
               <a
                 href="tel:#"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                onClick={handleLinkClick}
+                // Menyesuaikan warna tombol agar terlihat di latar belakang gelap
+                className="transition-all duration-300 ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow-400 text-[#1e2a47] hover:text-yellow-400 border border-yellow-400 hover:bg-transparent md:text-lg md:px-10 font-montserrat mt-2"
               >
                 Call Us Now
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       )}
