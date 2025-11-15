@@ -2,8 +2,8 @@ import React from "react"
 
 const AboutExtra = () => {
   return (
-    <div className="max-w-xl mx-auto mt-10">
-      <div className="mt-10 px-8">
+    <div className="max-w-xl mx-auto mt-2">
+      <div className="mt-5 px-8">
         {/* <h2 className="text-black text-4xl font-semibold">SMP DAAN MOGOT</h2> */}
         {/* <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Start building amazing web experiences
