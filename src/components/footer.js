@@ -27,7 +27,7 @@ const Footer = () => {
                 to="/"
                 className="text-gray-800 hover:text-blue-700 hover:underline transition-colors duration-300 footer-link"
               >
-                Home
+                Beranda
               </Link>
             </li>
             <li>
@@ -35,7 +35,7 @@ const Footer = () => {
                 to="/about"
                 className="text-gray-800 hover:text-blue-700 hover:underline transition-colors duration-300 footer-link"
               >
-                About
+                Tentang Kami
               </Link>
             </li>
             <li>
@@ -43,7 +43,7 @@ const Footer = () => {
                 to="/gallery"
                 className="text-gray-800 hover:text-blue-700 hover:underline transition-colors duration-300 footer-link"
               >
-                Gallery
+                Galeri
               </Link>
             </li>
             <li>
@@ -59,7 +59,7 @@ const Footer = () => {
                 to="/contact"
                 className="text-gray-800 hover:text-blue-700 hover:underline transition-colors duration-300 footer-link"
               >
-                Contact
+                Kontak
               </Link>
             </li>
           </ul>

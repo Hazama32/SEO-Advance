@@ -8,10 +8,9 @@ const Navbar = () => {
     // Menutup menu mobile saat tautan diklik
     setOpenMenu(false)
   }
-
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
+      <div className="max-w-7xl mx-auto px-3 py-2 rounded-md">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             {/* Logo SMP DAAN MOGOT */}

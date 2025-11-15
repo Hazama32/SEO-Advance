@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import LeftIcon from "../images/left-icon.svg"
-import RightIcon from "../images/right-icon.svg"
+import LeftIcon from "../images/left-arrow.svg"
+import RightIcon from "../images/right-arrow.svg"
 import styled from "styled-components"
 
 const StyledDiv = styled.div`
@@ -57,8 +57,8 @@ const BlogPost = props => {
   const post = props.data.markdownRemark
   let date = new Date(post.frontmatter.date) // assuming post.frontmatter.date is in ISO string format
   let options = { year: "numeric", month: "long", day: "numeric" }
-  let formattedDate = date.toLocaleDateString("en-ID", options)
-  let titlaDate = date.toLocaleDateString("en-ID", {
+  let formattedDate = date.toLocaleDateString("ID-ID", options)
+  let titlaDate = date.toLocaleDateString("ID-ID", {
     day: "numeric",
     month: "long",
     year: "numeric",

@@ -49,7 +49,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-gray-400">
                         No.HP
                       </p>
                       <p className="text-neutral-500 mb-2">
@@ -79,11 +79,11 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-gray-400">
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="mailto:smpdaanmogot16@gmail.com">
+                        <a href="mailto:smpdaanmogot16@gmail.com" className="break-all">
                           smpdaanmogot16@gmail.com
                         </a>
                       </p>
@@ -111,7 +111,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-gray-400">
                         Lokasi
                       </p>
                       <a className="text-neutral-500 mb-2" href="https://maps.app.goo.gl/UHC648AG4njcLnJ1A">Jl. Gatot Subroto Km. 5 Kel. Jatiuwung Kec. Cibodas Kota Tangerang Kode Pos 15134</a>
@@ -139,10 +139,10 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-gray-400">
                         Jam Kerja
                       </p>
-                      <p className="text-neutral-500 mb-2">Senin-Sabtu</p>
+                      <p className="text-neutral-500 mb-2">Senin-Jum'at</p>
                     </div>
                   </div>
                 </div>
